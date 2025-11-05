@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("Grid_system.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+@import url("all.css");
+.f-quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.f-oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body
+{
+	background-color:#EFF1E6;
+	color: rgba(0,0,0,0.8);
+	font-family: "Quicksand", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+}
+h1,h2,h3,h4,.menu
+{
+	font-family: "Oswald", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.font-dacbiet
+{ font-family: "montecarlo", cursive;
+font-weight: 800;
+color: rgba(109,42,182,1.00)}
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu ul li
+{
+	display: inline-block;/*day cac list len canh nhau 1 hang*/
+	position: relative;/*cho dt con dung dien tich cua minh de dinh vi vi tri*/
+}
+.menu ul li a:hover
+{
+	background-color: #E8FB59;
+	
+}
+.menu ul li a
+{
+	background-color: yellow;
+	padding: 8px 16px; 
+	display: block;
+	text-decoration: none; color: black;
+}
+.menu ul ul
+{
+	position: absolute;
+	left: 0; top: 100%;
+	background-color:rgba(255,255,255,0.8);
+	width: 200px;
+	display: none;
+}
+.menu ul ul li
+{
+	display: block;
+
+	border-bottom: 1px solid #60631A;
+}
+.menu ul li:hover> ul
+{
+	display: block;
+}
+.menu 
+{
+	border-bottom: thin solid; color: yellow
+}
+h1
+{
+	background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h4
+{
+	color: rgba(19,213,161,1.00)
+}
+
+.text-center{ text-align: center}
+.text-right{text-align: right}
+.text-left{ text-align: left}
+.text-justify{ text-align: justify}
+
+
+
+
