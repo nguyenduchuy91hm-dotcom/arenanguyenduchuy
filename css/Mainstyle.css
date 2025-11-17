@@ -91,6 +91,65 @@ h4
 .text-left{ text-align: left}
 .text-justify{ text-align: justify}
 
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+.card {
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+	background: #fff
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #d92525;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #e45a5a;
+    font-weight: bold;
+    font-size: 14px;
+}
+a:hover{
+	color:#FF0004;
+}
+.bg-primary{color:#FF0004}
+.bg-dark{background-color:#000000}
+.bg-light{background-color:#EEEEEE}
+.bg-white{background-color:#FFFFFF}
+.bg-success{background-color: greenyellow}
+.bg-danger{background-color: red}
+.bg-gradient { background-image: linear-gradient(red,green)}
+.box-shadow-1{ box-shadow:5px 4px 5px rgba(0,0,0,0.4)}
+.text-shadow{text-shadow: 4px 4px 10px rgba(0,0,0,0.2)}
 
 
